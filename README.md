@@ -1,7 +1,7 @@
 # Pedestrian Simulator
-<img src=https://github.com/srl-freiburg/pedsim_ros/blob/master/pedsim_simulator/images/crowd1.png width=400/> | <img src=https://github.com/srl-freiburg/pedsim_ros/blob/master/pedsim_simulator/images/costmap.png width=400/>
 
-ROS packages for a 2D pedestrian simulator based on social force
+ROS2 packages for a 2D pedestrian simulator based on social force
+
 model of [Helbing et. al](http://arxiv.org/pdf/cond-mat/9805244.pdf). The implementation is based on an extended version of Christian Gloor's [libpedsim](http://pedsim.silmaril.org/) library which has been extended to include additional behaviors and activities. This packages is useful for robot navigation experiments with crowded scenes which are hard to acquire in practice.
 
 ### Features
@@ -19,11 +19,9 @@ model of [Helbing et. al](http://arxiv.org/pdf/cond-mat/9805244.pdf). The implem
 
 ### Installation
 
-This installation guide is for ROS2. For ROS1 please check out the ROS1 branches in the official repo.
-
 ```
-cd [workspace]/src
-git clone -b ros2 https://github.com/srl-freiburg/
+git clone git@github.com:lehoangan2906/pedsim_ros2.git
+cd pedsim_ros2
 colcon build
 ```
 
@@ -50,5 +48,10 @@ The core `libpedsim` is licensed under LGPL. The ROS integration and extensions 
 
 The package is a **work in progress** mainly used in research prototyping. Pull requests and/or issues are highly encouraged.
 
-### Acknowledgements
-These packages have been developed in part during the EU FP7 project [SPENCER](spencer.eu)
+
+### Note
+- The original repository of the pedsim simulation project is hosted on https://github.com/srl-freiburg/pedsim_ros. But this project was originally developed for working with ROS1.
+
+- The modified ROS2 version of the project is currently hosted on https://github.com/stephenadhi/pedsim_ros. But since I want to properly construct my project, I created this seperate repository. All of Stephen Adhisaputra and his team's works and contributions are still preserved.
+
+- When you first launch this project, the Gazebo simulator might need a while to load the model up. So if it says Gazebo is not responding, just leave it there for haft an hour or so, then cancel the launch command and re-run it.
