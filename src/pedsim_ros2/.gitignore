@@ -1,0 +1,10 @@
+.svn
+.svn/*
+*.pyc
+build
+install
+log
+*~
+\#*#
+.\#*
+.vscode/
