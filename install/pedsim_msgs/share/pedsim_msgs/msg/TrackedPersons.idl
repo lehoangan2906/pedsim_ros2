@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pedsim_msgs/msg/TrackedPersons.msg
+// generated code does not contain a copyright notice
+
+#include "pedsim_msgs/msg/TrackedPerson.idl"
+#include "std_msgs/msg/Header.idl"
+
+module pedsim_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message with all currently tracked persons ")
+    struct TrackedPersons {
+      @verbatim (language="comment", text=
+        "Header containing timestamp etc. of this message")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "All persons that are currently being tracked")
+      sequence<pedsim_msgs::msg::TrackedPerson> tracks;
+    };
+  };
+};

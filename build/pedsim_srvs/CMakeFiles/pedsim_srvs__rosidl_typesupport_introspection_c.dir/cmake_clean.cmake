@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/get_agent_state__type_support.c.o"
+  "CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/get_agent_state__type_support.c.o.d"
+  "CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/get_all_agents_state__type_support.c.o"
+  "CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/get_all_agents_state__type_support.c.o.d"
+  "CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/set_agent_state__type_support.c.o"
+  "CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/set_agent_state__type_support.c.o.d"
+  "CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/set_all_agents_state__type_support.c.o"
+  "CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/set_all_agents_state__type_support.c.o.d"
+  "libpedsim_srvs__rosidl_typesupport_introspection_c.pdb"
+  "libpedsim_srvs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/get_agent_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/get_agent_state__type_support.c"
+  "rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/get_all_agents_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/get_all_agents_state__type_support.c"
+  "rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/set_agent_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/set_agent_state__type_support.c"
+  "rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/set_all_agents_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pedsim_srvs/srv/detail/set_all_agents_state__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/pedsim_srvs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,4 @@
+source;share/pedsim_utils/local_setup.bash
+source;share/pedsim_utils/local_setup.dsv
+source;share/pedsim_utils/local_setup.sh
+source;share/pedsim_utils/local_setup.zsh

@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pedsim_msgs/msg/AgentState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "pedsim_msgs/msg/AgentForce.idl"
+#include "std_msgs/msg/Header.idl"
+
+module pedsim_msgs {
+  module msg {
+    module AgentState_Constants {
+      @verbatim (language="comment", text=
+        "Use sensors package to control observability" "\n"        "Social State string constants")
+      const string TYPE_STANDING = "standing";
+      const string TYPE_INDIVIDUAL_MOVING = "individual_moving";
+      const string TYPE_WAITING_IN_QUEUE = "waiting_in_queue";
+      const string TYPE_GROUP_MOVING = "group_moving";
+    };
+    struct AgentState {
+      std_msgs::msg::Header header;
+
+      uint64 id;
+
+      uint16 type;
+
+      string social_state;
+
+      geometry_msgs::msg::Pose pose;
+
+      geometry_msgs::msg::Twist twist;
+
+      pedsim_msgs::msg::AgentForce forces;
+    };
+  };
+};

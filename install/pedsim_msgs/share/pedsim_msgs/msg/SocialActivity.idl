@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pedsim_msgs/msg/SocialActivity.msg
+// generated code does not contain a copyright notice
+
+
+module pedsim_msgs {
+  module msg {
+    module SocialActivity_Constants {
+      @verbatim (language="comment", text=
+        "Constants for social activity type (just examples at the moment)")
+      const string TYPE_SHOPPING = "shopping";
+      const string TYPE_STANDING = "standing";
+      const string TYPE_INDIVIDUAL_MOVING = "individual_moving";
+      const string TYPE_WAITING_IN_QUEUE = "waiting_in_queue";
+      const string TYPE_LOOKING_AT_INFORMATION_SCREEN = "looking_at_information_screen";
+      const string TYPE_LOOKING_AT_KIOSK = "looking_at_kiosk";
+      const string TYPE_GROUP_ASSEMBLING = "group_assembling";
+      const string TYPE_GROUP_MOVING = "group_moving";
+      const string TYPE_FLOW_WITH_ROBOT = "flow";
+      const string TYPE_ANTIFLOW_AGAINST_ROBOT = "antiflow";
+      const string TYPE_WAITING_FOR_OTHERS = "waiting_for_others";
+    };
+    struct SocialActivity {
+      @verbatim (language="comment", text=
+        "see constants below")
+      string type;
+
+      @verbatim (language="comment", text=
+        "detection confidence")
+      float confidence;
+
+      @verbatim (language="comment", text=
+        "IDs of all person tracks involved in the activity, might be one or multiple")
+      sequence<uint64> track_ids;
+    };
+  };
+};

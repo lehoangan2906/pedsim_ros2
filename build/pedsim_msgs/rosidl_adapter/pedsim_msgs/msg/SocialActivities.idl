@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pedsim_msgs/msg/SocialActivities.msg
+// generated code does not contain a copyright notice
+
+#include "pedsim_msgs/msg/SocialActivity.idl"
+#include "std_msgs/msg/Header.idl"
+
+module pedsim_msgs {
+  module msg {
+    struct SocialActivities {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "All social activities that have been detected in the current time step," "\n"
+        "within sensor range of the robot.")
+      sequence<pedsim_msgs::msg::SocialActivity> elements;
+    };
+  };
+};

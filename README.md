@@ -29,6 +29,13 @@ colcon build
 ```
 ros2 launch pedsim_gazebo_plugin gazebo_tb3_house_demo_launch.py
 ```
+
+### My modification
+
+- I have modify this project to use both the turtlebot3 burger and waffle models. As well as replaced the default depth camera for the robot from Intel RealSense R200 to Intel RealSense D415 (Installation Instruction: https://github.com/IntelRealSense/realsense-ros/tree/ros2-master?tab=readme-ov-file#installation-on-ubuntu)
+
+- To use my modified robot, refer to https://github.com/lehoangan2906/nav2_bringup. As the pedsim_ros2 project has dependencies on this repository.
+
 ### Licence
 The core `libpedsim` is licensed under LGPL. The ROS integration and extensions are licensed under BSD.
 

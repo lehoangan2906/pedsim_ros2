@@ -1,0 +1,20 @@
+{
+  "package_name": "pedsim_msgs",
+  "non_idl_tuples": [
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/AgentState.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/AgentStates.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/AgentGroup.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/AgentGroups.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/AgentForce.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/LineObstacle.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/LineObstacles.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/TrackedPerson.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/TrackedPersons.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/TrackedGroup.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/TrackedGroups.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/SocialRelation.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/SocialRelations.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/SocialActivity.msg",
+    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_msgs:msg/SocialActivities.msg"
+  ]
+}

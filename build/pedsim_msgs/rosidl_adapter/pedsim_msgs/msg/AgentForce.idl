@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pedsim_msgs/msg/AgentForce.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module pedsim_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Forces acting on an agent.")
+    struct AgentForce {
+      @verbatim (language="comment", text=
+        "Basic SFM forces.")
+      geometry_msgs::msg::Vector3 desired_force;
+
+      geometry_msgs::msg::Vector3 obstacle_force;
+
+      geometry_msgs::msg::Vector3 social_force;
+
+      @verbatim (language="comment", text=
+        "Additional Group Forces")
+      geometry_msgs::msg::Vector3 group_coherence_force;
+
+      geometry_msgs::msg::Vector3 group_gaze_force;
+
+      geometry_msgs::msg::Vector3 group_repulsion_force;
+
+      @verbatim (language="comment", text=
+        "Extra stabilization/custom forces.")
+      geometry_msgs::msg::Vector3 random_force;
+    };
+  };
+};
