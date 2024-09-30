@@ -9,12 +9,10 @@
 /home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/office-cubicles.world
 /home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/house.world
 /home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/tb3_house_demo_crowd.world
-/home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/scene3.world
-/home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/scene4.world
+/home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/office.world
 /home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/small_airport.world
 /home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/warehouse.world
-/home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/scene2.world
-/home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/scene1.world
+/home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/worlds/an_lh_house_demo_world.world
 /home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/models/tb3_house/model.sdf
 /home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/models/tb3_house/model.config
 /home/anlh/pedsim_ros2/install/pedsim_gazebo_plugin/share/pedsim_gazebo_plugin/models/person_standing/materials/textures/jeans01_normals.png

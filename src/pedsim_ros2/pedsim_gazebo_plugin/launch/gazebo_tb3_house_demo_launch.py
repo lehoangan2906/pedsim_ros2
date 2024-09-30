@@ -28,7 +28,8 @@ from launch_ros.substitutions import FindPackageShare
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 def generate_launch_description():
-    scene = 'tb3_house_demo_crowd'
+    scene = 'office'
+    # scene = 'tb3_house_demo_crowd'
     # Get the launch directory
     pedsim_gazebo_dir = FindPackageShare(package='pedsim_gazebo_plugin').find('pedsim_gazebo_plugin')
     bringup_dir = FindPackageShare(package='nav2_bringup').find('nav2_bringup')
@@ -56,7 +57,7 @@ def generate_launch_description():
     pedsim_config_file = LaunchConfiguration('pedsim_config_file')
 
     remappings = [('/tf', 'tf'),
-                  ('/tf_static', 'tf_static')]
+                ('/tf_static', 'tf_static')]
 
     # Declare the launch arguments
     declare_namespace_cmd = DeclareLaunchArgument(
@@ -129,8 +130,8 @@ def generate_launch_description():
         arguments=[
             '-entity', 'robot_test',
             '-file', robot_sdf,
-            '-x', '0.0',
-            '-y', '-2.0',
+            '-x', '1.011920',
+            '-y', '1.991720',
             '-z', '0.0',
             '-R', '0.0',
             '-P', '0.0',
