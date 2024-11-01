@@ -1,7 +1,0 @@
--I/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_simulator/include
--DQT_WIDGETS_LIB
--DQT_GUI_LIB
--DQT_CORE_LIB
--o
-/home/anlh/pedsim_ros2/build/pedsim_simulator/include/pedsim_simulator/element/moc_obstacle.cpp
-/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_simulator/include/pedsim_simulator/element/obstacle.hpp

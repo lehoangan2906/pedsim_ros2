@@ -1,2 +1,0 @@
-
-pedsim_msgs/AgentState state

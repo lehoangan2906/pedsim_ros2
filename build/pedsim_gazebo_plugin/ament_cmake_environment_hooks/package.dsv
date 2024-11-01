@@ -1,4 +1,0 @@
-source;share/pedsim_gazebo_plugin/local_setup.bash
-source;share/pedsim_gazebo_plugin/local_setup.dsv
-source;share/pedsim_gazebo_plugin/local_setup.sh
-source;share/pedsim_gazebo_plugin/local_setup.zsh

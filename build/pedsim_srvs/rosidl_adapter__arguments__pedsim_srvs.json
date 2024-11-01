@@ -1,9 +1,0 @@
-{
-  "package_name": "pedsim_srvs",
-  "non_idl_tuples": [
-    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_srvs:srv/GetAgentState.srv",
-    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_srvs:srv/GetAllAgentsState.srv",
-    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_srvs:srv/SetAgentState.srv",
-    "/home/anlh/pedsim_ros2/src/pedsim_ros2/pedsim_srvs:srv/SetAllAgentsState.srv"
-  ]
-}

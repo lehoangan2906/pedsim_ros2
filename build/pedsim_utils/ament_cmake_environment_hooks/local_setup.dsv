@@ -1,3 +1,0 @@
-source;share/pedsim_utils/environment/ament_prefix_path.sh
-source;share/pedsim_utils/environment/library_path.sh
-source;share/pedsim_utils/environment/path.sh

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libpedsim.a CMakeFiles/pedsim.dir/src/ped_agent.cpp.o CMakeFiles/pedsim.dir/src/ped_angle.cpp.o CMakeFiles/pedsim.dir/src/ped_obstacle.cpp.o CMakeFiles/pedsim.dir/src/ped_scene.cpp.o CMakeFiles/pedsim.dir/src/ped_tree.cpp.o CMakeFiles/pedsim.dir/src/ped_vector.cpp.o CMakeFiles/pedsim.dir/src/ped_waypoint.cpp.o
-/usr/bin/ranlib libpedsim.a
